@@ -1,0 +1,926 @@
+<!doctype>
+<html>
+
+<head>
+<title> Thaw Zin Htike Practice </title>
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+*{box-sizing:border-box}
+
+body{
+width:100%;
+background-color:black;
+top:0px;
+margin:0px;
+}
+
+.col-25{
+width:8%;
+height:100%;
+float:left;
+display:block;
+top:0px;
+margin-left:0px;
+margin-right:92%;
+margin-bottom:0px;
+position:fixed;
+background-color:rgb(34, 34, 34)
+}
+
+.thaw{
+width:100%
+}
+
+.thaw img{
+width:100%
+}
+
+.menu{
+display:block
+}
+
+.menu1{
+padding:10px;
+overflow:hidden;
+background-color:black;
+color:white
+}
+
+.menu1 a{
+text-decoration:none;
+color:white;
+}
+.menu1 i{
+font-size:30px;
+}
+
+.menu1 p{
+font-size:15px;
+text-align:center;
+}
+
+.menu1:hover {
+background-color:#f1f1f1;
+color:black;
+}
+
+.menu1:hover a{
+
+color:black;
+}
+.menu2{
+padding:10px;
+text-align:center;
+background-color:rgb(34, 34, 34);
+color:white;
+
+
+}
+
+.menu2 a{
+text-decoration:none;}
+.menu2 i{
+font-size:30px;
+}
+
+.menu2 p{
+font-size:15px;
+padding:8px;
+color:white;
+}
+
+.menu2:hover{
+background:black;
+color:white
+}
+
+.col-75{
+width:92%;
+margin-left:8%;
+padding:0px 10%;
+background-color:black;
+color:white;
+overflow:hidden;
+margin-right:0px;
+margin-bottom:0px;
+margin-top:0px;
+height:auto;
+top:0;
+
+}
+
+.jh{
+padding:2% 20%;
+text-align:center
+}
+
+.jh h1{
+font-size:70px
+}
+
+.jh p{
+padding-top:10px
+}
+
+.avater1{
+width:80%;
+margin:0px 8%
+}
+
+.avater1 img{
+width:100%;
+margin-bottom:10%
+}
+
+.about_thaw{
+padding:10px;
+
+}
+
+.about_thaw h1{
+width:100%;
+padding-bottom:3%;
+border-bottom:1px solid;
+text-align:left;
+}
+
+.about_thaw p{
+padding-top:2%;
+color:darkgray
+}
+
+.thaw_skills{
+padding:10px
+}
+
+.thaw_skills h2{
+padding-bottom:3%;
+width:100%;
+text-align:left;
+}
+
+.rating{
+margin-bottom:3%
+}
+
+.rating1{
+width:100%;
+background-color:white;
+display:block
+}
+
+.info{
+width:100%;
+margin:0px 10px 3% 10px;
+padding:0px;
+font-size:20px;
+background-color:white;
+overflow:hidden
+}
+
+.info1{
+width:24%;
+padding:1.5%;
+color:black;
+display:inline-block;
+}
+
+.info1 p{
+text-align:center
+}
+
+.download{
+margin:10px 10px 5% 
+}
+
+.download p{
+width:20%;
+padding:10px;
+font-size:15px;
+background-color:white;
+color:black;
+text-align:center
+}
+
+.download i{
+padding:5px
+}
+
+.download p:hover{
+background-color:#e1e1e1
+}
+
+.price{
+margin:10px;
+}
+
+.price h2{
+font-size:30px;
+width:100%;
+text-align:left;
+}
+
+.price1{
+width:43%;
+heigth:auto;
+margin:3%;
+color:black;
+display:inline-block
+}
+
+.price1 ul{
+padding:0px;
+list-style-type:none;
+background-color:#ddd
+}
+
+.price1 li{
+padding:10px;
+text-align:center;
+font-size:15px;
+border-bottom:1px solid #616161
+}
+
+.price1 button{
+width:100px;
+padding:10px
+}
+
+.price1 button:hover{
+background-color:black;
+color:white
+}
+
+.price1 ul:hover{
+background-color:white
+}
+
+.my_reputation{
+padding:10px
+}
+
+.avater2{
+width:100%;
+padding:10px;
+margin:3% 0px
+}
+
+.avater2 img{
+width:10%;
+float:left
+}
+
+.avater2 p{
+padding:10px 10% 0px;
+margin:10px
+}
+
+.photo{
+width:100%;
+padding:10px;
+margin:3% 0px 10%;
+overflow:hidden
+}
+
+.photo h3{
+width:100%;
+padding-bottom:2%;
+border-bottom:1px solid
+}
+
+.photo1{
+width:47%;
+height:auto;
+margin:2% 1.2% 2% 0px;
+float:left
+}
+
+.photo1 img{
+width:100%;
+margin:1.2%
+}
+
+.contact_me{
+margin:10px;
+padding:10px;
+overflow:hidden
+}
+
+.contact_me h3{
+width:100%;
+padding-bottom:2%;
+font-size:30px;
+border-bottom:1px solid;
+text-align:left;
+
+}
+
+.contact_me i{
+font-size:35px;
+padding:10px;
+margin-right:20px;
+float:left
+}
+
+.contact_me p{
+padding:12px;
+margin-top:20px;
+color:darkgray
+}
+
+.box{
+margin:10px
+}
+
+.form2 input{
+width:100%;
+padding:12px;
+margin-bottom:10px;
+color:black
+}
+
+.form2 button{
+padding:15px;
+color:black
+}
+
+.form2 i{
+margin-right:5px
+}
+
+.footer{
+margin:10% 10px 0px;
+color:darkgray
+}
+
+.footer i{
+font-size:20px
+}
+
+.footer p{
+margin:15px 0px 8%
+}
+
+.footer span i:hover{
+color:#f1f1f1
+}
+
+.jh .hidden_name{
+display:none
+}
+
+@media screen and (max-width:1000px) {
+
+.col-25{
+width:15%;
+height:100%;
+margin:0px;
+float:left;
+display:block;
+top:0px;
+margin-left:0px;
+
+position:fixed;
+background-color:rgb(34, 34, 34)
+}
+
+.col-75{
+width:85%;
+margin-left:15%;
+padding:0px;
+background-color:black;
+color:white;
+overflow:hidden;
+margin-top:0px;
+margin-right:0px;
+height:auto;
+}
+
+.jh h1{
+font-size:60px
+}
+
+.download p{
+width:35%
+}
+
+}
+
+@media screen and (max-width:400px) {
+
+.col-25{
+width:100%;
+height:auto
+}
+.col-75{
+width:100%;
+height:auto;
+padding:0;
+margin:0;
+}
+
+.thaw img{
+display:none
+}
+
+.menu{
+display:inline-block;
+text-align:center;
+overflow:hidden;
+}
+
+.menu i{
+display:none
+}
+
+.menu1{
+float:left;
+width:25%;
+overflow:hidden;
+
+}
+
+.menu2{
+float:left;
+width:25%;
+overflow:hidden;
+}
+
+
+
+.jh h1{
+display:none
+}
+
+.jh .hidden_name{
+display:block;
+font-size:80px;
+padding:5px
+}
+
+.about_thaw h1{
+width:50%
+}
+
+.info1{
+width:100%
+}
+
+.download p{
+width:50%
+}
+
+.price1{
+width:100%;
+margin:0px 5px 0px 0px 
+}
+
+.photo1{
+width:100%
+}
+
+.contact_me h3{
+width:100%
+}
+
+.form2 button{
+width:50%
+}
+
+.footer{
+margin-top:30%
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="wholebody">
+<div class="col-25">
+   
+     <div class="thaw"> 
+	 
+	     <img src="thaw8.jpg"></img>
+
+     </div>
+	 
+	 <div class="menu">
+	 
+	     <div class="menu1"> 
+	 
+	         <i class="glyphicon glyphicon-home"></i>  
+			 
+		     <a href="#homethaw"><p>HOME</p></a> 
+	 
+	     </div>
+		 
+		 <div class="menu2"> 
+	 
+	         <i class="glyphicon glyphicon-user"></i>  
+			 
+		     <a href="#aboutthaw"><p>ABOUT</p> </a>
+	 
+	     </div>
+		 
+		 <div class="menu2"> 
+	 
+	         <i class="glyphicon glyphicon-eye-open"></i>  
+			 
+		     <a href="#photothaw"><p>PHOTO</p></a> 
+	 
+	     </div>
+		 
+		 <div class="menu2"> 
+	 
+	         <i class="glyphicon glyphicon-envelope"></i>  
+			 
+		     <a href="#contactthaw"><p>CONTACT</p> </a>
+	 
+	     </div>
+	 
+	 </div>
+
+
+</div>
+
+<div class="col-75">
+
+     <div id="homethaw" class="jh">
+
+         <h2>I'm Thaw Zin Htike</h2>
+		 
+	
+		 
+		 <p>Web Developer, Web Designer and Database Developer</p>
+	
+	 </div>
+	 
+	 <div class="avater1">
+	 
+	     <img src="thaw.jpg" />
+	 
+	 </div>
+	 
+	 <div id="aboutthaw" class="about_thaw">
+	 
+	     <h1>Thaw Zin Htike</h1>
+		 
+		 <p>
+
+I am Thaw from Myanmar. I am graduated from Pyay Technological University specialized in Information Technology.
+After graduating from university, I immediately started working on my projects and learning as much as possible. 
+My goal is to create intuitive, user-friendly, and functional websites. 
+
+I had over ten years experience in Web Developing. I have worked on everything from small to large-scale website. 
+
+I am fast learner and good team player.
+I have analytical and  critical thinking skill, problem solving skill, troubleshooting skill, 
+testing and debugging skill and error handling. 
+
+My abilities are  html, css, javascript, php, sql and plsql.
+
+I had the experiences as a php web developer in the Singapore leading IT company and the Vietnamese leading IT company.
+
+In those companies, my responsibilites were creating new web application and web services, 
+maintaining the old web application and editing old web application. 
+
+I was developing the ERP, real estate, Warehouse management system, inventory management system and inhouse software. 
+
+My responsibilites were expecially in Back End web developing. 
+
+I have always been interestd in learning new technologies and languages, 
+so much so that it has become a passion of mine. 
+Because of this, I spend a lot of time reading books or tutorials 
+related to programming languages and platforms like PHP and database.
+
+Now I would like to relocate to foreign english speaking country. 
+
+So I am finding the good opportunities in english speaking country. 
+
+That is why I am taking the interview with your team. 
+Please give me the chance to work in your team. 
+
+Thank you so much for reading my introduction. 
+
+</p>
+	 
+	 </div>
+	 
+	 <div class="thaw_skills">
+	 
+	     <h2>My Skills</h2>
+	 
+	     <div class="rating">
+		 
+		     <p style="color:darkgray">P H P</p>
+			 
+			 <div class="rating1">
+			 
+			     <div class="rating2" style="width:90%; padding:15px; background-color:#616161"></div>
+			 
+			 </div>
+		 
+		 </div>
+		 <div class="rating">
+		 
+		     <p style="color:darkgray">H T M L 5</p>
+			 
+			 <div class="rating1">
+			 
+			     <div class="rating2" style="width:88%; padding:15px; background-color:#616161"></div>
+			 
+			 </div>
+		 
+		 </div>
+		 <div class="rating">
+		 
+		     <p style="color:darkgray">C S S 3</p>
+			 
+			 <div class="rating1">
+			 
+			     <div class="rating2" style="width:80%; padding:15px; background-color:#616161"></div>
+			 
+			 </div>
+		 
+		 </div>
+		 <div class="rating">
+		 
+		     <p style="color:darkgray">J A V A S C R I P T</p>
+			 
+			 <div class="rating1">
+			 
+			     <div class="rating2" style="width:60%; padding:15px; background-color:#616161"></div>
+			 
+			 </div>
+		 
+		 </div>
+		 
+		 <div class="rating">
+		 
+		     <p style="color:darkgray">S Q L</p>
+			 
+			 <div class="rating1">
+			 
+			     <div class="rating2" style="width:95%; padding:15px; background-color:#616161"></div>
+			 
+			 </div>
+		 
+		 </div>
+		 
+		 <div class="rating">
+		 
+		     <p style="color:darkgray">P L / S Q L</p>
+			 
+			 <div class="rating1">
+			 
+			     <div class="rating2" style="width:90%; padding:15px; background-color:#616161"></div>
+			 
+			 </div>
+		 
+		 </div>
+		 
+	 </div>
+	 
+	 <div class="info">
+		 
+		 <div class="info1">
+		 
+		     <p>11+</p>
+		 
+		     <p>Partners</p>
+		 
+	     </div>
+		 
+	     <div class="info1">
+		 
+		     <p>11+</p>
+		 
+		     <p>Partners</p>
+		 
+	     </div>
+		 
+	     <div class="info1">
+		 
+		     <p>11+</p>
+		 
+		     <p>Partners</p>
+		 
+	     </div>
+		 
+	     <div class="info1">
+		 
+		     <p>11+</p>
+		 
+             <p>Partners</p>
+		  
+		 </div>
+		 
+	 </div>
+	 
+	 <div class="download">
+	 
+	     <p><i class="glyphicon glyphicon-download-alt"></i>Download Resume</p>
+	 
+	 </div>
+	 
+	 <div class="price">
+	 
+	     <h2>Treasure Island Training Service</h2>
+		 
+		 <div class="price1">
+		 
+		     <ul>
+			 
+			     <li style=" color:darkgray; background-color:#616161; font-size:30px">Basic</li>
+				 
+				 <li><b>HTML</b></li>
+			 
+			     <li><b>CSS</b></li>
+				 
+				 <li><b>JAVASCRIPT</b></li>
+				 
+				 <li><b>PHP</b></li>
+				 <li><b>SQL</b></li>
+				 <li><b>Pl/SQL</b></li>
+				 
+				 <li style=" background-color:#ddd">
+				 
+				     <p style="font-size:20px">$ 50 per one subject</p> 
+					 
+				    
+				 
+				 </li>
+				 
+				 <li style=" background-color:#ddd"><button>Sign up</button></li>
+			 
+			 
+			 </ul>
+		 
+		 
+		 </div>
+		 
+		 <div class="price1">
+		 
+		     <ul>
+			 
+			 
+			     <li style=" color:darkgray; background-color:#616161; font-size:30px">Advanced</li>
+				 
+				 <li><b>HTML</b></li>
+			 
+			     <li><b>CSS</b></li>
+				 
+				 <li><b>JAVASCRIPT</b></li>
+				 
+				 <li><b>PHP</b></li>
+				 <li><b>SQL</b></li>
+				 <li><b>Pl/SQL</b></li>
+				 
+				 <li style=" background-color:#ddd">
+				 
+				     <p style="font-size:20px">$ 70 per one subject</p> 
+					 
+				    
+				 
+				 </li>
+				 
+				 <li style="background-color:#ddd"><button>Sign up</button></li>
+			 
+			 
+			 </ul>
+		 
+		 
+		 </div>
+		 
+	 
+	 </div>
+	 
+	 <div class="my_reputation">
+	 
+	     <h3>My Reputation</h3>
+	 
+	     <div class="avater2">
+		 
+		     <img src="thaw9.jpg"/>
+		 
+		     <p>Chris Fox. CEO at Mighty Schools.</p>
+			 
+			 <p>Thaw Zin Htike saved us from a web disaster.</p>
+		 
+		 </div>
+		 
+		 <div class="avater2">
+		 
+		     <img src="thaw10.jpg"/>
+		 
+		     <p>Rebecca Flex. CEO at Company.</p>
+			 
+			 <p>No one is better than Thaw Zin Htike.</p>
+		 
+		 </div>
+	 
+	 
+	 </div>
+	 
+	 <div id="photothaw" class="photo">
+	 
+	     <h3>My Photos</h3>
+	    
+	     <div class="photo1">
+		 
+		     <img src="thaw1.jpg" />
+			 
+			 <img src="thaw2.jpg" />
+			 <img src="thaw5.jpg" />
+			 <img src="thaw6.jpg" />
+			
+		 
+		 
+		 </div>
+		 
+		 <div class="photo1">
+		 
+		     <img src="thaw3.jpg" />
+			 
+			 <img src="thaw4.jpg" />
+			 <img src="thaw7.jpg" />
+			 
+			 
+		
+			 
+			 
+		 
+		 
+		 </div>
+
+	 
+	 </div>
+	 
+	 <div id="contactthaw" class="contact_me">
+	 
+	     <h3>Contact Me</h3>
+		 
+		 <i class="glyphicon glyphicon-map-marker"></i>
+		 
+		 <p>21, Beelindan Street, Letpadan, Bago, Myanmar</p>
+		 
+		 <i class="glyphicon glyphicon-earphone"></i>
+		 
+		 <p>Phone: +95-9423673831</p>
+		 
+		 <i class="glyphicon glyphicon-envelope"></i>
+		 
+		 <p>Email: mstreasurethaw@gmail.com</p>
+	 
+	 </div>
+	 
+	  <div class="box">
+		 
+		 <p style="margin-top:3%; color:darkgray">Let's get in touch. Send me a message:</p>
+		 
+		 <form class="form1">
+		 
+		     <div class="form2">
+			 
+			     <input type="text" placeholder="Name" required />
+				 
+				 <input type="email" placeholder="Email" required />
+				 
+				 <input type="subject" placeholder="Subject" required />
+				 
+				 <input type="text" placeholder="Message" required />
+			 
+			     <button><i class="glyphicon glyphicon-send"></i>SEND MESSAGE</button>
+			 
+			 </div>
+		 
+		 </form>
+		 
+	 </div>
+	 
+	 <div class="footer">
+	 
+	    
+		 
+		 <p>Powered by Thaw Zin Htike</p>
+	 
+	 </div>
+
+
+</div>
+
+</div>
+
+</body>
+
+</html>
